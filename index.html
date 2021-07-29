@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Sasta Netflix</title>
+    <style>
+        body {
+            background-color: rgb(176, 176, 187)
+        }
+
+        header {
+            background-color: black;
+            position: relative;
+            top: 0;
+            border-radius: 5px;
+        }
+
+        #title {
+            font-family: 'Zen Tokyo Zoo', cursive;
+            color: rgb(90, 103, 219);
+            display: inline-block;
+            position: relative;
+            left: 125px;
+            font-size: 40px;
+        }
+
+        #search {
+            float: right;
+            border: white;
+            position: relative;
+            top: 50px;
+            right: 90px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #logo {
+            float: right;
+            position: relative;
+            top: 39px;
+            right: -200px;
+            border-radius: 39px;
+            cursor: pointer;
+        }
+
+        .tagline {
+            background-image: url(mobie.jpg);
+            font-family: 'Cabin Sketch', cursive;
+            font-size: 70px;
+            font-weight: 100;
+            color: rgb(238, 170, 149);
+            text-align: center;
+            line-height: 50px;
+            border: 2px solid white;
+            height: 600px;
+            margin-bottom: 100px;
+        }
+
+        #btn {
+            cursor: pointer;
+            color: whitesmoke;
+            background-color: rgb(83, 172, 175);
+            padding: 20px 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            border-radius: 10px;
+            position: relative;
+            top: 150px;
+        }
+
+        .headings {
+            position: relative;
+            left: 100px;
+            font-family: 'Indie Flower', cursive;
+            font-size: 40px;
+            margin-top:150px;
+        }
+
+        .movies {
+            display: inline-block;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: white;
+            position: relative;
+            left: 100px;
+        }
+
+        .movies2 {
+            display: inline-block;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: white;
+            position: relative;
+            left: 230px;
+        }
+
+        .movies3 {
+            display: inline-block;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: white;
+            position: relative;
+            left: 360px;
+        }
+
+        .movname {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 27px;
+            color: green;
+            margin: 10px 0px;
+        }
+
+        .rating {
+            font-size: 20px;
+            margin: 12150
+        }
+
+        .movbtn {
+            font-size: 20px;
+            padding: 4px 98px;
+            background-color: rgb(90, 103, 219);
+            border-radius: 5px;
+            color: white;
+            cursor:pointer;
+        }
+        .movbtn:hover{
+            background-color:rgb(231, 231, 52);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <p id="title">SASTA NETFLIX</p>
+            <input type="text" name="search" id="search" placeholder="Search Movie" size="30px">
+            <img src="profile.jpg" width="40px" height="40px" id="logo">
+        </nav>
+    </header>
+    <div class="tagline">
+        <p>STREAM ALL THE POPULAR</p>
+        <p>MOVIES ON THE GO</p>
+        <button id="btn">Binge Favourites</button>
+    </div>
+    <div>
+        <p class="headings">Hollywood Blockbusters</p>
+    </div>
+    <div class="movies">
+        <img src="interstellar.jpg" width="300px" height="150px">
+        <p class="movname">Interstellar</p>
+        <p class="rating">IMDb : 8.6</p>
+        <button class="movbtn">Watch Now</button>
+    </div>
+    <div class="movies2">
+        <img src="shawshank.jpg" width="300px" height="150px">
+        <p class="movname">Shawshank Redemption</p>
+        <p class="rating">IMDb : 9.3</p>
+        <button class="movbtn">Watch Now</button>
+    </div>
+    <div class="movies3">
+        <img src="seven.jpg" width="300px" height="150px">
+        <p class="movname">Seven</p>
+        <p class="rating">IMDb : 8.6</p>
+        <button class="movbtn">Watch Now</button>
+    </div>
+
+
+    <div>
+        <p class="headings">Bollywood Blockbusters</p>
+    </div>
+    <div class="movies">
+        <img src="chakde.jpg" width="300px" height="150px">
+        <p class="movname">Chak De!India</p>
+        <p class="rating">IMDb : 8.2</p>
+        <button class="movbtn">Watch Now</button>
+    </div>
+    <div class="movies2">
+        <img src="pink.jpg" width="300px" height="150px">
+        <p class="movname">Pink</p>
+        <p class="rating">IMDb : 8.1</p>
+        <button class="movbtn">Watch Now</button>
+    </div>
+    <div class="movies3">
+        <img src="chhichhore.jpg" width="300px" height="150px">
+        <p class="movname">Chhichhore</p>
+        <p class="rating">IMDb : 8.3</p>
+        <button class="movbtn">Watch Now</button>
+    </div>
+
+
+    <div>
+        <p class="headings">Super Hit Web Series</p>
+    </div>
+    <div class="movies">
+        <img src="moneyheist.jpg" width="300px" height="150px">
+        <p class="movname">Money Heist</p>
+        <p class="rating">IMDb : 8.3</p>
+        <button class="movbtn">Watch Now</button>
+    </div>
+    <div class="movies2">
+        <img src="breakingbad.jpg" width="300px" height="150px">
+        <p class="movname">Breaking Bad</p>
+        <p class="rating">IMDb : 9.4</p>
+        <button class="movbtn">Watch Now</button>
+    </div>
+    <div class="movies3">
+        <img src="scam.jpg" width="300px" height="150px">
+        <p class="movname">Scam 1992</p>
+        <p class="rating">IMDb : 9.5</p>
+        <button class="movbtn">Watch Now</button>
+    </div>
+</body>
+
+</html>
